@@ -9,7 +9,7 @@ export default function Hero() {
             <p className="mb-3 text-lg text-primary-light">Hi, I&apos;m</p>
 
             <h1 className="text-5xl font-bold leading-tight md:text-6xl">
-              Yasaman <span className="gradient-text">Karbalaii</span>
+              Yasaman <span className="gradient-text">Karbalaei</span>
             </h1>
 
             <h2 className="mt-4 text-2xl font-semibold text-text-primary">
