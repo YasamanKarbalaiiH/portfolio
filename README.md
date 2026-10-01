@@ -74,12 +74,6 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env.local` file in the project root:
-
-```env
-RESEND_API_KEY=your_resend_api_key
-```
-
 Start the development server:
 
 ```bash
