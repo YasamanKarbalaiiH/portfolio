@@ -8,8 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "My Portfolio",
+  title: "Yasaman Karbalaii | Front-End Developer",
+  description:
+    "Portfolio of Yasaman Karbalaii, a Front-End Developer specializing in React and Next.js.",
 };
 
 export default function RootLayout({
