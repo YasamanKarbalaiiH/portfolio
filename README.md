@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yasaman Karbalaii — Portfolio
+
+A modern and responsive personal portfolio website built with Next.js, React, TypeScript, and Tailwind CSS.
+
+The portfolio showcases my frontend development skills, projects, professional experience, and contact information.
+
+## Live Demo
+
+Coming soon.
+
+## Features
+
+* Responsive design for desktop, tablet, and mobile
+* Modern dark UI with purple and pink accents
+* Hero section with personal introduction
+* About Me section
+* Skills and technologies
+* Featured projects with GitHub links
+* Professional experience
+* Contact form with email delivery
+* Smooth scrolling navigation
+* Mobile navigation menu
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Resend
+* ESLint
+
+## Project Structure
+
+```text
+src/
+└── app/
+    ├── api/
+    │   └── contact/
+    │       └── route.ts
+    ├── assets/
+    │   └── mypic.jpg
+    ├── components/
+    │   ├── Header.tsx
+    │   ├── Hero.tsx
+    │   ├── About.tsx
+    │   ├── Skills.tsx
+    │   ├── Projects.tsx
+    │   ├── Experience.tsx
+    │   ├── Contact.tsx
+    │   └── Footer.tsx
+    ├── globals.css
+    ├── layout.tsx
+    └── page.tsx
+```
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/YasamanKarbalaiiH/portfolio.git
+```
+
+Navigate to the project:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env.local` file in the project root:
+
+```env
+RESEND_API_KEY=your_resend_api_key
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open the application in your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Contact Form
 
-## Learn More
+The contact form uses the Resend API to send messages to the portfolio owner's email address.
 
-To learn more about Next.js, take a look at the following resources:
+The API key is stored in `.env.local` and is not included in the repository.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Available Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+Starts the development server.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Creates a production build.
+
+```bash
+npm run start
+```
+
+Starts the production server.
+
+```bash
+npm run lint
+```
+
+Runs ESLint to check the codebase.
+
+## Author
+
+**Yasaman Karbalaii**
+
+Front-End Developer
+
+* GitHub: https://github.com/YasamanKarbalaiiH
+* LinkedIn: https://www.linkedin.com/in/yasaman-karbalaei-663524436/
+
+## License
+
+This project is for personal portfolio and educational purposes.
