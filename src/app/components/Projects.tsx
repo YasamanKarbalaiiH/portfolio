@@ -1,8 +1,10 @@
+"use client";
+
 import AdminIcon from "../img/Admin Dashboard - Google Chrome 10_1_2026 11_52_05 AM.png";
 import TodoIcon from "../img/Home - File Explorer 10_1_2026 11_57_16 AM.png";
 import TaskIcon from "../img/Home - File Explorer 10_1_2026 11_54_45 AM.png";
-import Image from "next/image";
-
+import Image, { StaticImageData } from "next/image";
+import Swal from "sweetalert2";
 const projects = [
   {
     title: "Admin Dashboard",
@@ -31,6 +33,16 @@ const projects = [
   },
 ];
 
+function showPhoto(url: StaticImageData, title: string) {
+  Swal.fire({
+    theme: "dark",
+    title: title,
+    imageUrl: url.src,
+    imageWidth: 400,
+    imageHeight: 200,
+    confirmButtonColor: "#a78bfa",
+  });
+}
 export default function Projects() {
   return (
     <section id="projects" className="section">
@@ -49,7 +61,10 @@ export default function Projects() {
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <article key={project.title} className="group card overflow-hidden">
-              <div className="flex h-40 items-center justify-center bg-surface-light">
+              <div
+                onClick={() => showPhoto(project.icon, project.title)}
+                className="flex h-40 items-center justify-center bg-surface-light"
+              >
                 <Image
                   className="object-cover"
                   src={project.icon}
