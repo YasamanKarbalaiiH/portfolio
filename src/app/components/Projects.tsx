@@ -10,8 +10,8 @@ const projects = [
     title: "Admin Dashboard",
     icon: AdminIcon,
     description:
-      "A modern and responsive admin dashboard for managing customers, products, invoices and business data.",
-    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+      "Responsive admin dashboard built with Next.js, React, TypeScript, and Tailwind CSS, featuring customer, product, and invoice management with CRUD functionality. Includes a RAG-based AI Assistant connected to dashboard data for natural-language querying.",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Phyton"],
     github: "https://github.com/YasamanKarbalaiiH/Admin-Dashboard2",
   },
   {

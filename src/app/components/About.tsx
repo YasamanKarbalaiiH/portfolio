@@ -10,8 +10,10 @@ export default function About() {
 
             <p className="section-description leading-8">
               I&apos;m a Computer Engineering student and Front-End Developer
-              interested in building modern and responsive web applications. I
-              enjoy working with React, Next.js, TypeScript and Tailwind CSS.
+              focused on building modern and responsive web applications. I work
+              with React, Next.js, TypeScript, and Tailwind CSS, and I&apos;m
+              currently expanding my knowledge in Artificial Intelligence, with
+              a particular interest in RAG, LLMs, and AI-powered applications.
             </p>
 
             <p className="mt-5 max-w-2xl text-text-secondary leading-8">
